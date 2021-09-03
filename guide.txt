@@ -9,6 +9,7 @@ ssh-keygen -t rsa -C "leonidalejnkov"
 вводим пароль, символы не отображаются
 зайти в папку, в которой создан SSH (c:\Users\Lenovo\.ssh\)
 открыть id_rsa.pub и скопировать содержимое
+На Github в настройках найти "SSH and GPG keys" и вставить ключ в поле "key" 
 
 Клонировать репозиторий на локальный ПК с использованием SSH
 git clone git@github.com:aleonids/group_22.git
@@ -53,11 +54,13 @@ git push
 проверяем командой
 git status
 
-Измененные файлыв подсвечены красным
+Измененные файлы подсвечены красным
 modified:   guide.txt
 
 команды:
 git add .
 git commit -m "Linux-terminal-GitBash-commands"
 git push
+
+Если изменения сделаны на Github, нужно синхронизировать с локальными файлами
  
