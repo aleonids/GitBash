@@ -63,4 +63,16 @@ git commit -m "Linux-terminal-GitBash-commands"
 git push
 
 Если изменения сделаны на Github, нужно синхронизировать с локальными файлами
+Проверяем командой
+git status
+
+видим, что изменений нет
+
+Команда получения с сервера 
+git fetch
+
+Далее синхронизируем файлы
+git pull (тоже самое что git fetch + git merge)
+
+
  
