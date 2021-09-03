@@ -21,7 +21,32 @@ git config --global user.email "aleonids@tut.by"
 git config --global user.name
 git config --global user.email
 
-Создаем файлы:
+Создаем файл:
+touch filename.txt
+
+заходим в файл
+vim filename.txt
+
+Чтобы редактировать, нажать I
+Чтобы сохранить - esc :wq enter
+
+Проверяем созданные файлы. Локальные подсвечиваются красным.
+git status
+
+Чтобы отправить все файлы на удаленный репозиторий
+git add .
+
+Чтобы отправить конкретный файл на удаленный репозиторий
+git add filename.txt
+
+Файлы "позеленели", проверка
+git status
+
+Сделать git commit, "сфотографировать" состояние файла
+git commit -m "Linux-terminal-GitBash-commands" - в кавычках название
+
+отправить файлы
+git push
 
 
-
+ 
