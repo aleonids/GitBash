@@ -49,4 +49,15 @@ git commit -m "Linux-terminal-GitBash-commands" - в кавычках назва
 git push
 
 
+Если локально вносить изменения в файлы, нужно их отправить на Github
+проверяем командой
+git status
+
+Измененные файлыв подсвечены красным
+modified:   guide.txt
+
+команды:
+git add .
+git commit -m "Linux-terminal-GitBash-commands"
+git push
  
